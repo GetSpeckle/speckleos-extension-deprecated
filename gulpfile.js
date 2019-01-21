@@ -6,9 +6,9 @@ dotenv.config()
 
 export const paths = {
   scripts: [
-    'src/scripts/content.js',
-    'src/scripts/background.js',
-    'src/scripts/popup.js',
+    'src/scripts/content.ts',
+    'src/scripts/background.ts',
+    'src/scripts/popup.ts',
   ],
 
   styles: 'src/styles/popup.scss',

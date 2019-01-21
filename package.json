@@ -16,21 +16,25 @@
     "last 1 Firefox version"
   ],
   "engines": {
-    "node": ">=8.6"
+    "node": ">=8.6",
+    "yarn": "^1.10.1"
+  },
+  "resolutions": {
+    "typescript": "^3.2.2"
   },
   "dependencies": {
+    "lz-string": "^1.4.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "lz-string": "^1.4.4",
     "webextension-polyfill": "^0.3.1"
   },
   "devDependencies": {
-    "@types/chrome": "0.0.77",
-    "@types/react": "^16.7.20",
-    "@types/react-dom": "^16.0.11",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@std/esm": "^0.26.0",
+    "@types/chrome": "0.0.77",
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
     "ava": "^1.0.1",
     "babel-loader": "^8.0.5",
     "babel-plugin-lodash": "^3.3.4",
@@ -57,6 +61,8 @@
     "stylelint": "^9.9.0",
     "stylelint-config-rational-order": "^0.0.2",
     "stylelint-scss": "^3.4.4",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.12.1",
     "vinyl-named": "^1.1.0",
     "webpack": "^4.28.3",
     "webpack-stream": "^5.2.1"
