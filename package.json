@@ -7,7 +7,7 @@
     "start": "NODE_ENV=development gulp dev --require @std/esm",
     "build": "NODE_ENV=production gulp build --require @std/esm",
     "bundle": "NODE_ENV=production gulp bundle --require @std/esm",
-    "pretest": "npm run build",
+    "pretest": "yarn build",
     "test": "ava"
   },
   "@std/esm": "all",

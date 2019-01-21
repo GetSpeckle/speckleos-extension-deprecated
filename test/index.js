@@ -18,7 +18,7 @@ test.before('start up headless chrome', async t => {
   page = await browser.newPage()
 })
 
-test.serial(t => {
+test.serial('dummy test', t => {
   t.pass()
 })
 
