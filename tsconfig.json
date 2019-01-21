@@ -1,19 +1,13 @@
 {
-  "extends": "./node_modules/@polkadot/dev/config/tsconfig",
   "compilerOptions": {
-    "baseUrl": ".",
-    "typeRoots": [
-      "./node_modules/@polkadot/ts",
-      "./node_modules/@types"
-    ]
-  },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "test/**/*.ts",
-    "test/**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "noImplicitUseStrict": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "jsx": "react",
+    "lib": ["dom", "es2017"]
+  }
 }
+
