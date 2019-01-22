@@ -1,18 +1,20 @@
 {
   "appName": {
-    "message": "Speckle",
-    "description": "The name of the application"
+    "message": "Speckle"
   },
   "appShortName": {
-    "message": "Speckle",
-    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+    "message": "Speckle"
   },
   "appDescription": {
-    "message": "window to Polkadot the new web",
-    "description": "The description of the application"
+    "message": "window to Polkadot the new web"
   },
   "browserActionTitle": {
-    "message": "Speckle",
-    "description": "The title of the browser action button"
+    "message": "Speckle"
+  },
+  "welcome": {
+    "message": "Welcome to Speckle"
+  },
+  "welcomeMessage": {
+    "message": "Speckle is a window to Polkadot the new web"
   }
 }

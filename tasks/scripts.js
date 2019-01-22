@@ -17,7 +17,7 @@ const webpackConfig = {
   module: {
     rules: [
       {
-        test: /\.ts$/,
+        test: /\.tsx?$/,
         exclude: /node_modules/,
         use: {
           loader: 'ts-loader',
@@ -31,8 +31,8 @@ const webpackConfig = {
     new Dotenv({ systemvars: true }),
   ],
   resolve: {
-    extensions: ['.ts', '.js'],
-    modules: ['node_modules/', 'src/scripts/'],
+    extensions: ['.ts', '.tsx', '.js'],
+    modules: ['node_modules/', 'src/scripts/', 'src/components/'],
   },
   // only log errors to console,
   // gulp handles the rest

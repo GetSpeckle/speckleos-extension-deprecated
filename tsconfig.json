@@ -1,13 +1,8 @@
 {
+  "extends": "./node_modules/@polkadot/dev/config/tsconfig",
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
-    "noImplicitAny": true,
-    "noImplicitUseStrict": true,
-    "noImplicitReturns": true,
-    "strictNullChecks": true,
-    "jsx": "react",
-    "lib": ["dom", "es2017"]
+    "jsx": "react"
   }
 }
 

@@ -5,9 +5,15 @@ dotenv.config()
 
 
 export const paths = {
-  scripts: 'src/scripts/**/*',
+  scripts: [
+    'src/scripts/**/*',
+    'src/components/**/*.tsx'
+  ],
 
-  styles: 'src/styles/popup.scss',
+  styles: [
+    'src/styles/popup.scss',
+    'src/components/**/*.scss'
+  ],
 
   locales: 'src/_locales/**/*.json',
 
