@@ -5,11 +5,7 @@ dotenv.config()
 
 
 export const paths = {
-  scripts: [
-    'src/scripts/content.ts',
-    'src/scripts/background.ts',
-    'src/scripts/popup.ts',
-  ],
+  scripts: 'src/scripts/**/*',
 
   styles: 'src/styles/popup.scss',
 
@@ -21,9 +17,7 @@ export const paths = {
 
   manifest: 'src/manifest.json',
 
-  markup: [
-    'src/pages/popup.html',
-  ],
+  markup: 'src/pages/*',
 }
 
 

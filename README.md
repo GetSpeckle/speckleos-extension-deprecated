@@ -8,6 +8,6 @@
 
 - run `yarn build` command to build in prod mode
 
-- run `yarn bundle` command to generate zip file for deployment
+- run `yarn bundle` command to generate bundle file for deployment
 
 - run `yarn test` command to launch browser and test

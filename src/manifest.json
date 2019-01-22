@@ -15,17 +15,17 @@
       "38": "images/icon-38.png"
     },
     "default_title": "__MSG_browserActionTitle__",
-    "default_popup": "popup.html"
+    "default_popup": "pages/popup.html"
   },
   "content_scripts": [
     {
       "matches": ["https://*/*"],
       "run_at": "document_end",
-      "js": ["content.js"]
+      "js": ["scripts/content.js"]
     }
   ],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["scripts/background.js"],
     "persistent": true
   },
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"

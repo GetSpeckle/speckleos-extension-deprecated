@@ -23,6 +23,7 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
+    "@polkadot/util": "^0.33.35",
     "lz-string": "^1.4.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

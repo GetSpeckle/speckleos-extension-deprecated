@@ -11,7 +11,7 @@ function addAutoreloadScript(manifestJson) {
     ...manifestJson,
     background: {
       ...manifestJson.background,
-      scripts: [ 'autoreload.js', ...(hasScripts ? manifestJson.background.scripts : []) ],
+      scripts: [ 'scripts/autoreload.js', ...(hasScripts ? manifestJson.background.scripts : []) ],
     },
   }
 }
