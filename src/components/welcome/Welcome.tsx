@@ -1,6 +1,5 @@
 import browser from 'webextension-polyfill'
 import React from 'react';
-import { Button } from 'semantic-ui-react'
 
 interface AppProps {}
 
@@ -14,15 +13,20 @@ export default class Welcome extends React.Component<AppProps, AppState> {
   render() {
     let welcome = browser.i18n.getMessage('welcome')
     let welcomeMessage = browser.i18n.getMessage('welcomeMessage')
+    let cont = browser.i18n.getMessage('continue')
     return (
-      <div>
+      <div className="container">
+        <div className="logo">
+        </div>
         <div className="header">
           { welcome }
         </div>
         <div className="info">
-          { welcomeMessage}
+          { welcomeMessage }
         </div>
-        <Button content='Continue' />
+        <div className="action">
+          <button>{ cont }</button>
+        </div>
       </div>
     )
   }

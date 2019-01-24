@@ -16,5 +16,8 @@
   },
   "welcomeMessage": {
     "message": "Speckle is a window to Polkadot the new web"
+  },
+  "continue": {
+    "message": "Continue"
   }
 }

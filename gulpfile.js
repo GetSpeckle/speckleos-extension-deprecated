@@ -11,7 +11,7 @@ export const paths = {
   ],
 
   styles: [
-    'src/styles/popup.scss',
+    'src/styles/*.scss',
     'src/components/**/*.scss'
   ],
 
