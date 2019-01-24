@@ -32,7 +32,7 @@ const webpackConfig = {
   ],
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
-    modules: ['node_modules/', 'src/scripts/', 'src/components/'],
+    modules: ['node_modules/', 'src/scripts/', 'src/components/', 'src/state'],
   },
   // only log errors to console,
   // gulp handles the rest
