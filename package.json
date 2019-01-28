@@ -23,6 +23,7 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
+    "@material-ui/core": "^3.9.1",
     "@polkadot/util": "^0.33.35",
     "lz-string": "^1.4.4",
     "react": "^16.7.0",
