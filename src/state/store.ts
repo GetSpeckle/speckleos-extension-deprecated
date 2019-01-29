@@ -6,4 +6,4 @@ function configureStore (initialState?: object) {
   return createStore(rootReducer, initialState!, compose(applyMiddleware(createSagaMiddleware())))
 }
 
-module.exports = configureStore
+export default configureStore
