@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^3.9.1",
+    "@material-ui/styles": "^3.0.0-alpha.9",
     "@polkadot/util": "^0.33.35",
     "lz-string": "^1.4.4",
     "react": "^16.7.0",
